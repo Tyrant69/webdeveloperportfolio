@@ -51,9 +51,9 @@ nav a {
 
 .header {
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url('/images/') , url('/images/developer.png'); 
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right , top left;
 
 }
 
@@ -214,7 +214,8 @@ footer{
 .footer-column{
     width: 50%;
 }
-.contact input, textarea{
+.contact input , .contact input[type="email"],
+textarea{
   display: block; 
   margin-bottom: 25px; 
   padding: 18px 35px;
@@ -224,3 +225,5 @@ background:#FFF;
 border: 0;
 width: 100%;
 }
+.social-links a{ margin: 25px
+    ;}
